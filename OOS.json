@@ -1,0 +1,25 @@
+{
+    "Sermon": "The King's Last Words in the Temple",
+    "Passage": "Matthew 23:34-38",
+    "Date": "08/11/20",
+    "Psalms": [
+        {
+            "book": "Sing Psalms",
+            "number": 122,
+            "version":"",
+            "verses": "1-9"
+        },
+        {
+            "book": "Sing Psalms",
+            "number": 9,
+            "version":"(a)",
+            "verses": "9-14"
+        },
+        {
+            "book": "Sing Psalms",
+            "number": 91,
+            "version":"",
+            "verses": "1-8"
+        }
+    ]
+}
