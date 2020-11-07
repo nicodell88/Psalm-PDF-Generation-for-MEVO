@@ -8,6 +8,10 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 import json
 import shutil
 
+from PIL import Image
+from PIL import ImageFont
+from PIL import ImageDraw
+
 savePath = 'LordsDay'
 if not os.path.exists(savePath):
     os.makedirs(savePath)
@@ -88,3 +92,11 @@ for i in range(nPsalms):
 print("Finished")
 print("YouTube Title")
 print("{} - {} - {}".format(df["Date"],df["Passage"],df["Sermon"]))
+
+font = ImageFont.truetype("Chalkduster.ttf",size = 50)
+img = Image.open('wmark_text_drawn.jpg')
+draw = ImageDraw.Draw(img)
+draw.text((1920/2,200),df["Date"]+" - "+df["Passage"],(255,255,255),font = font,align="right")
+draw.text((1920/2,350),df["Sermon"],(255,255,255),font = font,align="right")
+# draw.text((1920/2,500),df["Passage"],(255,255,255),font = font,align="right")
+img.save('test.jpg')
