@@ -1,25 +1,25 @@
 {
-    "Sermon": "The King's Last Words in the Temple",
-    "Passage": "Matthew 23:34-38",
-    "Date": "08/11/20",
+    "Sermon": "The Civil Magistrate and The Fifth Word",
+    "Passage": "Romans 13:1-7",
+    "Date": "08/11 PM",
     "Psalms": [
         {
-            "book": "Sing Psalms",
-            "number": 122,
+            "book": "Scottish Psalter",
+            "number": 29,
             "version":"",
-            "verses": "1-9"
+            "verses": "1-4,9-11"
         },
         {
-            "book": "Sing Psalms",
-            "number": 9,
-            "version":"(a)",
-            "verses": "9-14"
+            "book": "Scottish Psalter",
+            "number": 46,
+            "version":"",
+            "verses": "6-11"
         },
         {
-            "book": "Sing Psalms",
-            "number": 91,
+            "book": "Scottish Psalter",
+            "number": 20,
             "version":"",
-            "verses": "1-8"
+            "verses": "1-7"
         }
     ]
 }

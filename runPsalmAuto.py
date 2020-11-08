@@ -93,10 +93,19 @@ print("Finished")
 print("YouTube Title")
 print("{} - {} - {}".format(df["Date"],df["Passage"],df["Sermon"]))
 
-font = ImageFont.truetype("Chalkduster.ttf",size = 50)
+font = ImageFont.truetype("Seravek.ttc",size = 65)
 img = Image.open('wmark_text_drawn.jpg')
 draw = ImageDraw.Draw(img)
-draw.text((1920/2,200),df["Date"]+" - "+df["Passage"],(255,255,255),font = font,align="right")
-draw.text((1920/2,350),df["Sermon"],(255,255,255),font = font,align="right")
+
+msg = df["Date"]#" - "+df["Passage"]
+w,h = draw.textsize(msg,font = font)
+draw.text(((1920-w)/2,200),msg,(255,255,255),font = font)
+msg = df["Passage"]
+w,h = draw.textsize(msg,font = font)
+draw.text(((1920-w)/2,300),msg,(255,255,255),font = font)
+msg = df["Sermon"]
+w,h = draw.textsize(msg,font = font)
+draw.text(((1920-w)/2,400),msg,(255,255,255),font = font)
+
 # draw.text((1920/2,500),df["Passage"],(255,255,255),font = font,align="right")
-img.save('test.jpg')
+img.save(savePath + "/" + df["Sermon"] +  "/YT.jpg")
