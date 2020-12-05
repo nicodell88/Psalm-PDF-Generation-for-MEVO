@@ -1,25 +1,25 @@
 {
-    "Sermon": "The Civil Magistrate and The Fifth Word",
-    "Passage": "Romans 13:1-7",
-    "Date": "08/11 PM",
+    "Sermon": "Human Lives and the Sixth Word",
+    "Passage": "Genisis 4:1-16",
+    "Date": "15/11 PM",
     "Psalms": [
         {
             "book": "Scottish Psalter",
-            "number": 29,
+            "number": 130,
             "version":"",
-            "verses": "1-4,9-11"
+            "verses": "1-8"
         },
         {
             "book": "Scottish Psalter",
-            "number": 46,
+            "number": 139,
             "version":"",
-            "verses": "6-11"
+            "verses": "13-17"
         },
         {
             "book": "Scottish Psalter",
-            "number": 20,
+            "number": 55,
             "version":"",
-            "verses": "1-7"
+            "verses": "16-22"
         }
     ]
 }
