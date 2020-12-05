@@ -1,0 +1,25 @@
+{
+    "Sermon": "An Example of Conflict Resolution",
+    "Passage": "1 Samuel 25",
+    "Date": "6/12 PM",
+    "Psalms": [
+        {
+            "book": "Scottish Psalter",
+            "number": 62,
+            "version":"",
+            "verses": "1-6"
+        },
+        {
+            "book": "Scottish Psalter",
+            "number": 141,
+            "version":"",
+            "verses": "1-5"
+        },
+        {
+            "book": "Scottish Psalter",
+            "number": 133,
+            "version":"",
+            "verses": "1-3"
+        }
+    ]
+}

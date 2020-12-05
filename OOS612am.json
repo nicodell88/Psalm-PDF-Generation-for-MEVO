@@ -1,0 +1,25 @@
+{
+    "Sermon": "The Principles of Conflict Resolution",
+    "Passage": "2 Corinthians 5:18-21",
+    "Date": "6/12 AM",
+    "Psalms": [
+        {
+            "book": "Sing Psalms",
+            "number": 32,
+            "version":"",
+            "verses": "1-7"
+        },
+        {
+            "book": "Sing Psalms",
+            "number": 41,
+            "version":"",
+            "verses": "6-13"
+        },
+        {
+            "book": "Sing Psalms",
+            "number": 119,
+            "version":"(8)",
+            "verses": "57-64"
+        }
+    ]
+}
