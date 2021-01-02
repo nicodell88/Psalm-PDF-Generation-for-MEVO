@@ -91,6 +91,10 @@ for i in range(nPsalms):
             lp = findPageWithString_start(pdf,lv)
             up = findPageWithString_end(pdf,uv)
             PageVec += list(range(lp,up+1))
+        elif len(verses[j]) == 0:
+            lp = 1
+            up = len(pdf)-1
+            PageVec += list(range(lp,up+1))
         else:
             ver = verses[j]
             lp = findPageWithString_start(pdf,ver)
@@ -132,4 +136,4 @@ draw.text(((1920-w)/2,400),msg,(255,255,255),font = font)
 
 # draw.text((1920/2,500),df["Passage"],(255,255,255),font = font,align="right")
 ytTitle = "{} - {}".format(df["Passage"],df["Sermon"])
-img.save(savePath + "/" + df["Sermon"] +  "/" +ytTitle +".jpg")
+img.save(savePath + "/" + df["Sermon"] +  "/" +"YT.jpg")
