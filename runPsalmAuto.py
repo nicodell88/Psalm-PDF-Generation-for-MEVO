@@ -73,7 +73,7 @@ for i in range(nPsalms):
 
     files = glob.glob(fileSpec)
     # print(files)
-    assert len(files) == 1
+    assert len(files) == 1,"{str} does not have exactly one matching file.:{filess}".format(str = fileSpec,filess = files)
     pdfFile = files[0]
     # print(pdfFile)
     with open(files[0], "rb") as f:
