@@ -1,0 +1,6 @@
+pypdftk
+pdftotext
+PyPDF2
+easygui
+Pillow
+fpdf

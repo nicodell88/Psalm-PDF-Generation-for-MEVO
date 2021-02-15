@@ -1,6 +1,7 @@
 {
     "Sermon": "The Principles of Conflict Resolution",
     "Passage": "2 Corinthians 5:18-21",
+    "Reading":["Matthew 1","Matthew 2"],
     "Date": "6/12 AM",
     "Psalms": [
         {
@@ -21,5 +22,10 @@
             "version":"(8)",
             "verses": "57-64"
         }
+    ],
+    "Outline":[
+        "First Sermon Point",
+        "Second Sermon Point",
+        "Third Sermon Point"
     ]
 }
